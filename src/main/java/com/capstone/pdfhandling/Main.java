@@ -17,6 +17,6 @@ public class Main {
 
     public static void main(String[] args) {
         PdfHandling handler = new PdfHandling();
-        handler.printText("js.pdf");
+        handler.sanitize("input/bigjs.pdf");
     }
 }
